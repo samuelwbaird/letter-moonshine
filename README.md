@@ -10,6 +10,10 @@ Since the projects that would suit each environment are likely to diverge it wou
 
 [https://github.com/samuelwbaird/letter](https://github.com/samuelwbaird/letter)
 
+The simplest way to test the result in its current form is in example/build/moonshine.
+First run build.lua to build the web version of the example game
+Then run debug.sh to launch the Moonshine debugger and a Python webserver 
+
 Readme for original letter library.
 
 # love letter
