@@ -1,3 +1,17 @@
+## Background
+
+This project began as a port of the letter library for Löve2D to run in the Moonshine Lua vm using HTML canvas. To enable this the dependancy on Löve2D was isolated in a platform module. An alternate platform module linked to HTML canvas functions and an alternative build script prepared Lua code and data to be easily loaded by Moonshine.
+
+Although Moonshine is fantastic to work with (debugging is excellent) and performance is good for what is it, it's hard to ignore the order of magnitude difference in running code with Löve2D and running code in a Lua vm inside a Javascript vm inside a browser. The performance difference means that re-targetting the same code (at least based on letter, other libraries may be better) to either platform is not likely to produce a good result.
+
+Since the projects that would suit each environment are likely to diverge it would be best if the libraries also diverge. More likely I would just bite the bullet and work in Javascript.
+
+[https://github.com/gamesys/moonshine](https://github.com/gamesys/moonshine)
+
+[https://github.com/samuelwbaird/letter](https://github.com/samuelwbaird/letter)
+
+Readme for original letter library.
+
 # love letter
 _A reference game implementation for Löve2D_
 
